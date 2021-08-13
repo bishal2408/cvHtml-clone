@@ -1,0 +1,138 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.main-container {
+  /* background-color: blueviolet; */
+  margin: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+.one-third-container {
+  /* background-color: burlywood; */
+  width: 35%;
+  background-color: rgb(240, 238, 218);
+  margin-right: 25px;
+  box-shadow: 5px 5px  #d4d4cf;
+}
+
+.cv-photo {
+  position: relative;
+  text-align: center;
+}
+
+.cv-photo img {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border-style: none;
+  box-sizing: inherit;
+}
+
+.cv-photo h2 {
+  position: absolute;
+  bottom: 25px;
+  left: 20px;
+  font-size: 1.8rem;
+  line-height: 1.5rem;
+}
+
+.long-container {
+  margin-top: 5px;
+  margin-left: 20px;
+  padding: 10px;
+}
+
+.fa {
+  font-size: 20px !important;
+  color: teal;
+  margin: 20px 20px 10px 0px;
+}
+
+.skills {
+  margin: 20px 0px;
+}
+
+progress {
+  height: 20px;
+  width: 90%;
+  border-radius: 7px;
+}
+
+progress::-webkit-progress-bar{
+  background-color: rgb(231, 206, 206);
+}
+
+progress::-webkit-progress-value {
+  background-color: teal;
+}
+
+.percentage-level{
+  position: absolute;
+  left: 10%;
+  color: white;
+}
+
+.top-container p{
+  line-height: 1.5rem;
+}
+
+.experience {
+  margin-top: 50px;
+  margin-bottom: 5px;
+}
+
+.highlight {
+  padding: 3px 14px;
+  border: 2px solid teal;
+  border-radius: 12px;
+  color: white;
+  background-color: teal;
+  font-size: 16px;
+}
+
+.text-color{
+  color: teal;
+  margin-bottom: 5px;
+}
+
+.top-container {
+  background-color: rgb(240, 238, 218);
+  padding: 15px 25px 25px 25px;
+  /* border: 1px solid #b3b3ac; */
+  box-shadow: -5px 5px #d4d4cf;
+  margin-bottom: 20px;
+}
+
+.bottom-container {
+  background-color: rgb(240, 238, 218);
+  padding: 15px 25px 25px 25px;
+  /* border: 1px solid #b3b3ac; */
+  box-shadow: -5px 5px #d4d4cf;
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: teal;
+  text-align: center;
+  margin-top: 16px;
+  color: white;
+  padding: 25px;
+}
+
+.footer > .fa{
+  color: white;
+  margin: 10px 3px;
+  cursor: pointer;
+}
+
+.footer > .fa:hover {
+  color: black;
+}
